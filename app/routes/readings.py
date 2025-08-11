@@ -22,8 +22,8 @@ def get_readings_ds():
     offset = (page - 1) * per_page
 
     # Date range
-    start_date = '20.05.2025'
-    end_date = '17.06.2025'
+    start_date = '17.06.2025'
+    end_date = '13.07.2025'
 
     # ✅ Query: main data (LIMIT + OFFSET)
     main_query = text("""
